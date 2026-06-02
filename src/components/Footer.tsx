@@ -14,7 +14,7 @@ export default function Footer() {
                 Dan Jheniel Bringas
               </h2>
               <p className="mt-3 max-w-xl text-sm leading-7 text-white-dark md:text-base">
-                Aspiring full-stack developer focused on building clean, modern,
+                Aspiring full-stack developer and software engineer focused on building clean, modern,
                 and responsive web experiences.
               </p>
             </div>
