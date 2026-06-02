@@ -7,7 +7,7 @@ export default function Terminal() {
         <span className="w-3 h-3 rounded-full bg-yellow-400" />
         <span className="w-3 h-3 rounded-full bg-green-500" />
         <span className="ml-3 text-white-dark text-xs font-mono">
-          developer.ts
+          aboutMe.ts
         </span>
       </div>
 
