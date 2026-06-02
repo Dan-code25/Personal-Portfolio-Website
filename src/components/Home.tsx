@@ -6,7 +6,6 @@ import { RiInstagramLine } from "react-icons/ri";
 import { Download } from "lucide-react";
 
 import resume from "../assets/Bringas, Dan Jheniel P_Curriculum_Vitae.pdf";
-
 import heroPic from "../assets/Dan_Pic.svg";
 
 export default function Home() {
@@ -123,11 +122,11 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="flex gap-4 mt-2">
+        <div className="flex gap-3 sm:gap-4 mt-2">
           <button
             type="button"
             onClick={scrollToContact}
-            className="relative flex items-center justify-center px-6 py-3 font-medium rounded-xl bg-normal cursor-pointer overflow-hidden group transition-all duration-300 active:scale-95 border border-transparent hover:border-white/20 hover:shadow-[0_0_20px_rgba(255,255,255,0.15)]"
+            className="relative flex items-center justify-center px-4 py-2.5 sm:px-6 sm:py-3 text-sm sm:text-base font-medium rounded-lg sm:rounded-xl bg-normal cursor-pointer overflow-hidden group transition-all duration-300 active:scale-95 border border-transparent hover:border-white/20 hover:shadow-[0_0_20px_rgba(255,255,255,0.15)]"
           >
             <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white/10 rounded-full group-hover:w-56 group-hover:h-56" />
             <span className="relative z-10 transition-transform duration-300 group-hover:scale-105">
@@ -138,7 +137,7 @@ export default function Home() {
           <button
             type="button"
             onClick={handleDownloadCV}
-            className="relative flex items-center gap-2 px-6 py-3 font-medium rounded-xl border-2 border-white-dark-hover text-white-dark-hover cursor-pointer overflow-hidden group transition-all duration-300 active:scale-95"
+            className="relative flex items-center gap-2 px-4 py-2.5 sm:px-6 sm:py-3 text-sm sm:text-base font-medium rounded-lg sm:rounded-xl border-2 border-white-dark-hover text-white-dark-hover cursor-pointer overflow-hidden group transition-all duration-300 active:scale-95"
           >
             <span className="absolute inset-0 w-full h-full bg-white-dark-hover origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out" />
 
@@ -146,10 +145,7 @@ export default function Home() {
               Download CV
             </span>
 
-            <Download
-              size={18}
-              className="relative z-10 group-hover:text-black transition-all duration-300 group-hover:translate-y-[3px]"
-            />
+            <Download className="relative z-10 w-4 h-4 sm:w-[18px] sm:h-[18px] group-hover:text-black transition-all duration-300 group-hover:translate-y-[3px]" />
           </button>
         </div>
       </div>
